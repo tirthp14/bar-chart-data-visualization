@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: slategray;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+}
+
+svg {
+    background-color: rgb(255, 255, 245);
+    border-radius: 10px;
+    box-shadow: 1px 1px 20px;
+    padding-top: 15px;
+}
+
+#tooltip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    width: auto;
+    height: auto;
+    padding: 5px;
+    font: 12px;
+    background-color: rgb(46, 62, 82);
+    box-shadow: 1px 1px 10px;
+    border-radius: 2px;
+    pointer-events: none;
+    border: 2px solid white;
+    color: white;
+}
+
+#tooltip p {
+    margin: 0;
+}
